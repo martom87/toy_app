@@ -324,3 +324,23 @@ Processing by MicropostsController#new as HTML
 Completed 200 OK in 89ms (Views: 79.7ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-12-09 17:53:01 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tomal/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 193ms (Views: 184.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2018-12-09 17:53:10 +0100
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.6ms)
+
+
