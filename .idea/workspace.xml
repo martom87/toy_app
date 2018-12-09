@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2d0f109-ecf7-4c9e-971f-c8ac8ba74f30" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="e2d0f109-ecf7-4c9e-971f-c8ac8ba74f30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/micropost.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/development.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/0c/80b34884b67109" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/0c/80b34884b67109" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/64/e453278699df1a" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/64/e453278699df1a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/a5/e0e0ca667f3056" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/a5/e0e0ca667f3056" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/bc/026412db84f1be" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/bc/026412db84f1be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -21,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/toy_app@Development__toy_app.rcov" NAME="Development: toy_app Coverage Results" MODIFIED="1544377968051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="toy_app" />
+    <SUITE FILE_PATH="coverage/toy_app@Development__toy_app.rcov" NAME="Development: toy_app Coverage Results" MODIFIED="1544386417354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="toy_app" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1922290300">
@@ -43,28 +46,29 @@
           <entry key="config" value="1" />
           <entry key="erb" value="3" />
           <entry key="pid" value="2" />
-          <entry key="rb" value="15" />
+          <entry key="rb" value="19" />
+          <entry key="ru" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="17" />
+          <entry key="Ruby" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="11" />
           <entry key="Rakefile" value="5" />
-          <entry key="rb" value="167" />
-          <entry key="txt" value="14" />
+          <entry key="rb" value="218" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Ruby" value="183" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Ruby" value="234" />
         </counts>
       </usages-collector>
     </session>
@@ -75,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -83,34 +87,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -123,11 +116,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/boot.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -147,9 +155,11 @@
       <list>
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/application_record.rb" />
       </list>
     </option>
   </component>
@@ -200,6 +210,12 @@
               <item name="toy_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="toy_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toy_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toy_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toy_app" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +372,7 @@
       <workItem from="1544308997074" duration="2611000" />
       <workItem from="1544311798861" duration="1322000" />
       <workItem from="1544357005859" duration="2709000" />
-      <workItem from="1544373086858" duration="4554000" />
+      <workItem from="1544373086858" duration="7388000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1544307903996</created>
@@ -365,22 +381,29 @@
       <option name="project" value="LOCAL" />
       <updated>1544307903996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="validations added">
+      <created>1544378033477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544378033477</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12643000" />
+    <option name="totallyTimeSpent" value="15477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="539" width="1793" height="789" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27246708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23135464" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16468039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +428,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="validations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="validations added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -446,16 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -465,16 +479,42 @@
     <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -485,10 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
